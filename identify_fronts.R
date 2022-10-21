@@ -251,8 +251,8 @@ if (exists("domain", opts)) {
   # If a domain is defined, parse it, check it and compare it to the data
   domain <- parse_domain(opts$domain)
   domain <- check_domain(lon0, lat0, domain, 
-                         exlude_poles = ! opts$includepoles, 
-                         tol          = opts$tol)
+                         exclude_poles = ! opts$includepoles, 
+                         tol           = opts$tol)
   domain <- compare_domains(lon0, lat0, domain, tol = opts$tol)
 } else {
   # If no domain is defined, set it equal to the extent of the data
