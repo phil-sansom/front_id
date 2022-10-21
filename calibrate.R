@@ -211,7 +211,7 @@ print("Computing reference analysis...")
 # Make command
 command0 <- paste0("./identify_fronts.R", " --diagnostics", " --nofronts",
                    " --nsmooth=", opts$nsmooth, " --pressure=", opts$pressure,
-                   " --domain=", domain.string)
+                   " --domain=", domain_string)
 if (exists("level0", opts))
   command0 <- paste0(command0, " --level=", opts$level0)
 if (exists("wname0", opts))
