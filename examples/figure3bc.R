@@ -240,7 +240,7 @@ contour(
 )
 
 # Add fronts
-for (front in contour_then_mask) {
+for (front in final) {
   
   # Check if front has any points inside domain
   in_x_domain <- any(lon_min <= front$x & front$x <= lon_max)
