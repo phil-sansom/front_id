@@ -4,9 +4,11 @@ Meteorological front identification and classification using the method of Hewso
 
 Run/see test.sh for examples of usage.
 
+Run examples.sh to reproduce Figure 1(b) and Figures 3(b) and 3(c) from the accompanying paper.
+
 References:
 
-Hewson, T.D. (1998), Objective fronts. Met. Apps, 5: 37-65. https://doi.org/10.1017/S1350482798000553
+Sansom, P.G. and Catto, J.L. (2022), Improved objective identification of meteorological fronts: a case study with ERA-Interim. Geoscientific Model Development.
 
 
 ## Primary functions
